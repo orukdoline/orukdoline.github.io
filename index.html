@@ -420,6 +420,13 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+        // 우클릭 방지
+        document.addEventListener('contextmenu', (event) => {
+            event.preventDefault();
+            alert("우클릭은 사용할 수 없습니다.");
+        });
+    </script>
 
 </body>
 
